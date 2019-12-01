@@ -19,7 +19,7 @@ async function handleSubmit(event){
     return ( 
     <>
     <p>
-        Apache <strong>NiFi </strong>
+         <strong>Frella Delivery</strong>
       </p>
       <form onSubmit={handleSubmit}>
         <label htmlFor="Email">Email *</label>

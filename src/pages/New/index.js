@@ -39,10 +39,10 @@ export default function New({history}){
             </label>
 
 
-            <label htmlFor="company">Empresa *</label>
+            <label htmlFor="company">Produto *</label>
             <input 
             id="company"
-            placeholder="sua empresa"
+            placeholder="seu produto"
             value = {company}
             onChange ={event=> setCompany(event.target.value)}
             />

@@ -24,7 +24,7 @@ export default function Dashboard(){
                      <li key={spot._id}>
                          <header style = {{ backgroundImage: `url(${spot.thumbnail_url})`}}/>
                          <strong>{spot.company}</strong>
-                         <span>{spot.price ? `R$${spot.price}/dia` : 'GRATUITO'}</span>
+                         <span>{spot.price ? `R$${spot.price}/Un` : 'GRATUITO'}</span>
 
                          
                      </li>
